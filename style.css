@@ -2,13 +2,34 @@
 
 body {
     background-color: ivory;
-    color: #3F568B;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #B4C8BB;
+    color: ivory;
+    padding: 5px;
+    font-weight: bold;
+}
+
+h3 {
+  padding-top: 15px;  
+}
+
+footer {
+    background-color: #B4C8BB;
 }
 
 #container {
-    width: 600px;
+    width: auto;
     height: 500px;
-    background-color: #3F568B;
+    background-color: #B4C8BB;
     color: ivory;
-    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#paddd {
+    padding: 10px;
 }
