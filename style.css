@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body {
+    background-color: ivory;
+    color: #3F568B;
+}
+
+#container {
+    width: 600px;
+    height: 500px;
+    background-color: #3F568B;
+    color: ivory;
+    margin: auto;
+}
