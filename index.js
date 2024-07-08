@@ -48,3 +48,27 @@ function saveTodo(){
     });
     localStorage.setItem('todos', JSON.stringify(todos));
 }
+
+function loadTodo() {
+    const todos = JSON.parse(localStorage.getItem('todos'));
+    if (todos) {
+        todos.forEach((todo) => {
+            var list = document.createElement('li');
+            var del = document.createElement('button');
+            
+            list.innerHTML = todo;
+            result.appendChild(list);
+            list.appendChild(del);
+
+            del.innerText = "x";
+            del.style.fontSize = "20px";
+            del.style.border = "none";
+            del.style.float = "right";
+            del.style.marginTop = "10px";
+            del.style.right = "17px";
+            del.style.cursor = "pointer";
+            del.addEventListener('click', deletelist);
+            del.style.position = "relative";
+        });
+    }
+}

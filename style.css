@@ -17,8 +17,17 @@ h3 {
   padding-top: 15px;  
 }
 
-footer {
-    background-color: #B4C8BB;
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    line-height: 40px;
+    position: relative;
+    margin-bottom: 9px;
+    text-indent: 15px;
 }
 
 #container {
