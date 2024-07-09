@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +8,22 @@
 </head>
 <body>
   <!-- 할 일 입력 폼 -->
-
-    <!-- 할 일을 입력하는 텍스트 필드 -->
-
-    <!-- 할 일을 추가 버튼 -->
-
+  <header>
+    <form id="paddd">
+        <legend>To do</legend>
+      <!-- 할 일을 입력하는 텍스트 필드 -->
+        <input type="text" id="inputValue" placeholder="할 일을 입력하세요" autofocus>
+      <!-- 할 일을 추가 버튼 -->
+        <button id="btn">추가하기</button>
+    </form>
+  </header>
   <!-- 할 일 목록을 표시하는 영역 -->
+  <div id="container">
+    <h3>List</h3>
+    <ul id="addTodo">
+      <li><div id="result"></div></li>
+    </ul>
+  </div>
 
   <script src="index.js"></script>
 </body>

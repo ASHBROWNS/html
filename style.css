@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body {
+    background-color: ivory;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #B4C8BB;
+    color: ivory;
+    padding: 5px;
+    font-weight: bold;
+}
+
+h3 {
+  padding-top: 15px;  
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    line-height: 40px;
+    position: relative;
+    margin-bottom: 9px;
+    text-indent: 15px;
+}
+
+#container {
+    width: auto;
+    min-height: 500px;
+    background-color: #B4C8BB;
+    color: ivory;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#paddd {
+    padding: 10px;
+}
